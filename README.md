@@ -23,8 +23,8 @@
 
 ### 1. کلون کردن پروژه
 ```bash
-git clone [repository-url]
-cd Laravel-task/src
+git clone https://github.com/RafeKhatebi/CodeAf-Terminal-system.git
+cd CodeAf-Terminal-system
 ```
 
 ### 2. نصب وابستگی‌ها
@@ -42,7 +42,7 @@ cp .env.example .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=saber_finance
+DB_DATABASE=codeaf_finance
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -69,7 +69,7 @@ chmod -R 775 storage bootstrap/cache
 
 ## اطلاعات ورود پیش‌فرض
 
-- **نام کاربری:** admin
+- **ایمیل:** admin@codeaf.com
 - **رمز عبور:** admin123
 
 ## ساختار پروژه
